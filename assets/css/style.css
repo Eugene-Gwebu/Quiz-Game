@@ -14,6 +14,7 @@ h1 {
     letter-spacing: 6px;
 }
 
+
 /* flex boxes */
 
 .flex-outer {
@@ -43,7 +44,13 @@ li {
 #submit {
     display: flex;
     justify-content: center;
-    background-color: red;
+    background-color: green;
+    transition: all 0.3s;
+}
+
+#submit:hover {
+    background: blue;
+    color: white;
 }
 
 .score-area {
@@ -57,11 +64,18 @@ li {
 button {
     font-family: 'Bangers', cursive, sans-serif;
     font-size: 20px;
-    background-color: blue;
+    background-color: red;
     border: none;
     color: white;
     text-decoration: none;
     padding: 15px 20px;
     border-radius: 8px;
     letter-spacing: 6px;
+    cursor: pointer;
+    transition: all 0.3s;
+}
+
+button:hover {
+    background: blue;
+    color: white;
 }
