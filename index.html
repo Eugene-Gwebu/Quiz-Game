@@ -7,8 +7,8 @@
      
     <!--Googel Fonts Comic Book Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>MCU Quiz!</title>
@@ -18,7 +18,38 @@
         <h1>MCU Quiz!</h1>
     </header>
     
-    <div class="flex-outer"></div>
+    <div class="flex-outer">
+        <div class="game-area-flex">
+
+            <h2>Question-area</h2>
+
+            <div class="answers-flex">
+                <ul class="buttons-grid">
+                    <li>
+                        <button class="button-one">option 1</button>
+                    </li>
+                    <li>
+                        <button class="button-two">option 2</button>
+                    </li>
+                    <li>
+                        <button class="button-three">option 3</button>
+                    </li>
+                    <li>
+                        <button class="button-four">option 4</button>
+                    </li>
+                </ul>
+            </div>
+
+            <button id="submit">Submit!</button>
+
+        </div>
+
+    </div>
+
+    <div class="score-area">
+        <p class="scores">Correct answers:<span id="points"> 0</span></p>
+        <p class="scores">Incorrect answers:<span id="incorrect"> 0</span></p>
+    </div>
 
     <script src="assets/js/script.js"></script>
 </body>

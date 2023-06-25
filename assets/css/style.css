@@ -1,0 +1,67 @@
+
+/* body styling */
+body {
+    background-color: red;
+    font-family: 'Bangers', cursive, sans-serif;
+    font-size: 1.563rem;
+    letter-spacing: 6px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 80px;
+    letter-spacing: 6px;
+}
+
+/* flex boxes */
+
+.flex-outer {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+}
+
+.game-area-flex {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1cm;
+}
+
+ul {
+    display: flex;
+    flex-direction: column;
+    padding-right: 1cm;
+}
+
+li {
+    list-style-type: none;
+    padding-bottom: 0.6cm;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    background-color: red;
+}
+
+.score-area {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Buttons styling. Most of the ideas for how to style the buttons came from an online quiz game that I found, and W3 Schools */
+
+button {
+    font-family: 'Bangers', cursive, sans-serif;
+    font-size: 20px;
+    background-color: blue;
+    border: none;
+    color: white;
+    text-decoration: none;
+    padding: 15px 20px;
+    border-radius: 8px;
+    letter-spacing: 6px;
+}
