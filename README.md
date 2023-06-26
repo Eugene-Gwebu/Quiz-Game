@@ -63,6 +63,9 @@ The game has interactive elements such as buttons that change colors or appear a
 * The webpage and its functionalities were tested on Google Chrome and Microsoft Edge.
 * The buttons, styling and interactive elements were functioning optimally in both browsers with no issue.
 * There were no media queries used in the code for this webpage, yet after testing the it the page is perfectly responsive and fits well into the smallest viewport.
+
+![](TEST1.png)  
+ 
 * This was most likely a result of using flex boxes in the HTML and CSS programs.
 * Before deploying the site there was a bug that caused the question and answers sections to disappear after adding some JavaScript.
 * I was able to find the missing code through an online tutorial that I found.
@@ -72,13 +75,19 @@ The game has interactive elements such as buttons that change colors or appear a
 * ### HTML
 * The HTML validator approved the code and showed no errors to report.
 
+![](HTML.png)  
+
 * ### CSS
 * The CSS Validator also showed no errors after testing the raw code.
+
+![](CSS.png)  
 
 * ### Lighthouse Test
 * The lighthouse test has also given the website a pass.
 * The best scores were in best practices and accessibility.
 * There were also some points to improve on, such as needing to avoid large layout shifts due to movement on the page.
+
+![](LIGHTHOUSE.png)  
 
 ## Credit
 
