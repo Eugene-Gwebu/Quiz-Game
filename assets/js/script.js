@@ -165,7 +165,7 @@ function handleSubmitButton() {
     }
 }
 
-submitButton.addEventListener("click", () => {
+submitButton.addEventListener("click", function () {
     if (currentQuestionIndex < questions.length) {
         handleSubmitButton();
     } else {
