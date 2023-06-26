@@ -5,7 +5,7 @@ also an exciting endeavor for super fans of comic books and superhero movies. Th
 is to attract player by offering them the chance to prove their knowledge of the 
 popular universe that exists in the Marvel Cinematic Universe movies. 
 
-![](ass)
+![](MOCKUPS.png)
 
 Users will be challenged by having to go through a series of questions about events and 
 characters from Marvel movies. Each question will be accompanied by four buttons with different 
@@ -21,6 +21,8 @@ The game has interactive elements such as buttons that change colors or appear a
 * The font used here is called "Bangers", it was acquired from Google Fonts
 * Because of its comic book styling, making it perfect for the theme of this game based on Marvel superhero movies.
 * Contrasting bright red, white and black was also intentionally done to invoke the iconic color way of the Marvel comics logo.
+
+  
 
 ## The Question Section
 
