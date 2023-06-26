@@ -56,6 +56,8 @@ The game has interactive elements such as buttons that change colors or appear a
 * The score is presented on a white background with black text, continuing the design from earlier.
 * When the score is presented, another green butting shows up below it, offering the user the option to play again.
 
+![](SCORE.png)  
+
 ## Testing 
 
 * The webpage and its functionalities were tested on Google Chrome and Microsoft Edge.
