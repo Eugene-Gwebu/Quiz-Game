@@ -5,6 +5,8 @@ also an exciting endeavor for super fans of comic books and superhero movies. Th
 is to attract player by offering them the chance to prove their knowledge of the 
 popular universe that exists in the Marvel Cinematic Universe movies. 
 
+![](ass)
+
 Users will be challenged by having to go through a series of questions about events and 
 characters from Marvel movies. Each question will be accompanied by four buttons with different 
 answers to choose from. The user will have to make sure to pick the correct answer in order to 
@@ -87,12 +89,13 @@ The game has interactive elements such as buttons that change colors or appear a
 * Most of the JAvaScrip in my project was borrowed from GreatStack's in-depth YouTube tutorial.
 * The video also points out how each line of code affects the webpage once it's deployed, and shows the page each step of the way.
 * It was also advantageous for me as my design was simple and resembled the example used in the video.
+* These resources were also supplemented by W3 Schools, which aided in further simplifying difficult concepts.
 
 
 ### Media
 
-* No photos were used in this website which is a big disadvantage when it comes to engaging the user in a an online game.
-* This point is emphasised by the fact that the imagery and relevance of comic book and superheros currently in pop-culture.
-* The best media resource utilised in this quiz game is the font, as it anchors the theme and conveys energy and excitement to the users.
+* No photos were used in this website which is a big disadvantage when it comes to engaging the user in an online game.
+* This point is emphasized by the fact that the imagery and relevance of comic book and superheros currently in pop-culture.
+* The best media resource utilized in this quiz game is the font, as it anchors the theme and conveys energy and excitement to the users.
+ 
 
-  
