@@ -33,8 +33,11 @@ The game has interactive elements such as buttons that change colors or appear a
 * There are ten questions in total, all of them are consistent with the theme of Marvel superhero movies.
 * These questions were designed based on a trivia game you might play with your friends at the local pub after work.
 
+![](QUESTION(2).png)  
 
 ## The Answers Section 
+
+![](ANSWERS1.png)  
 
 * ### Interactive Answers
 * The answers section is the most interactive part of the site and the game.
@@ -43,7 +46,9 @@ The game has interactive elements such as buttons that change colors or appear a
 * When the user hovers over the buttons they change colors from red to blue, and the cursor becomes a pointer.
 * If a player selects the wrong answer, the correct one will turn green and the submit button will pop up, while the rest of them stay red.
 * After pressing the select button, the page will go to the next question and answer options.
-  
+
+![](ANSWERS.png)  
+
 ## The Score Section 
 
 * ### Points Total
