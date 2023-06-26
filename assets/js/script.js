@@ -1,3 +1,4 @@
+/* questions and answers array */
 const questions = [
     {
         question: "In Avengers: Endgame, what does Thanos say to Iron-Man before snapping his fingers?",
