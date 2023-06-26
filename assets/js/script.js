@@ -107,6 +107,7 @@ function startQuiz() {
 }
 
 function showQuestion() {
+    resetState();
     let currentQuestion = questions[currentQuestionIndex];
     let questionNo = currentQuestionIndex + 1;
     questionElement.innerHTML = questionNo + "." + currentQuestion.question;
@@ -120,10 +121,14 @@ function showQuestion() {
             button.dataset.correct = answers.correct;
         }
         button.addEventListener("click", selectAnswer);
+    });
+}
+
+function resetState() {
+    submitButton.style.display = "none";
+    while (answerButtons.firstChild) {
+        answerButtons.removeChild(answerButtons.firstChild);
     }
-    );
-
-
 }
 
 function selectAnswer(a) {
@@ -144,8 +149,29 @@ function selectAnswer(a) {
     submitButton.style.display = "block";
 }
 
-nextButton.addEventListener("click", ()=>{
-    if(currentQuestionIndex < questions.length)
+function showScore() {
+    resetState();
+    questionElement.innerHTML = `You got ${score} out of ${questions.length}!`;
+    submitButton.innerHTML = "Play Again!";
+    submitButton.style.display = "block";
+}
+
+function handleSubmitButton() {
+    currentQuestionIndex++;
+    if (currentQuestionIndex < questions.length) {
+        showQuestion();
+    } else {
+        showScore();
+    }
+}
+
+submitButton.addEventListener("click", () => {
+    if (currentQuestionIndex < questions.length) {
+        handleSubmitButton();
+    } else {
+        startQuiz();
+    }
+
 });
 
 startQuiz();
