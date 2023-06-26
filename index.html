@@ -1,46 +1,49 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-     
+
     <!--Googel Fonts Comic Book Font-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat+Alternates:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bangers&family=Montserrat+Alternates:wght@500&display=swap"
+        rel="stylesheet">
 
     <link rel="stylesheet" href="assets/css/style.css">
     <title>MCU Quiz!</title>
 </head>
+
 <body>
     <header>
-        <h1>MCU Quiz!</h1>
+        <h1>MCU MOVIES Quiz!</h1>
     </header>
-    
+
     <div class="flex-outer">
         <div class="game-area-flex">
 
-            <h2>Question-area</h2>
+            <h2 id="question">Question-area</h2>
 
-            <div class="answers-flex">
-                <ul class="buttons-grid">
+            <div id="answer-buttons">
+                <ul>
                     <li>
-                        <button class="button-one">option 1</button>
+                        <button class="button-a"></button>
                     </li>
                     <li>
-                        <button class="button-two">option 2</button>
+                        <button class="button-a"></button>
                     </li>
                     <li>
-                        <button class="button-three">option 3</button>
+                        <button class="button-a"></button>
                     </li>
                     <li>
-                        <button class="button-four">option 4</button>
+                        <button class="button-a"></button>
                     </li>
                 </ul>
             </div>
 
-            <button id="submit">Submit!</button>
+            <button id="submit-button">Submit!</button>
 
         </div>
 
@@ -53,4 +56,5 @@
 
     <script src="assets/js/script.js"></script>
 </body>
+
 </html>
