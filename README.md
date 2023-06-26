@@ -22,7 +22,7 @@ The game has interactive elements such as buttons that change colors or appear a
 * Because of its comic book styling, making it perfect for the theme of this game based on Marvel superhero movies.
 * Contrasting bright red, white and black was also intentionally done to invoke the iconic color way of the Marvel comics logo.
 
-  
+![](HEADER.png)  
 
 ## The Question Section
 
